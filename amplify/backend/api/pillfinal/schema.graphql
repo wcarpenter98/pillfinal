@@ -1,0 +1,7 @@
+type Medication @model {
+  id: ID!
+  name: String!
+  quantity: String
+  refill: String
+  userid: String
+}
